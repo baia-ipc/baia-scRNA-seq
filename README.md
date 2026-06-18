@@ -44,7 +44,7 @@ Some packages are commonly used together, while others can be applied independen
                            ┌─────────────────────────┐
                            │ Pathway Enrichment      │
                            │                         │
-                           │ baia-pathway-analysis  │
+                           │ baia-pathway-analysis   │
                            └─────────────────────────┘
 ```
 
