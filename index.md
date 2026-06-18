@@ -1,6 +1,6 @@
-# BAIA scRNA-seq Toolkit
+# BAIA Single Cell analysis ToolKit (BAIA-SCTK)
 
-The **BAIA scRNA-seq Toolkit** is a collection of interoperable R packages developed by the Bioinformatics and AI Applications (BAIA) Unit at the Institut Pasteur du Cambodge. The toolkit supports common single-cell RNA-seq analyses through a set of modular packages that can be used independently or combined into larger workflows.
+The **BAIA Single Cell analysis ToolKit** is a collection of interoperable R packages developed by the Bioinformatics and AI Applications (BAIA) Unit at the Institut Pasteur du Cambodge. The toolkit supports common single-cell RNA-seq analyses through a set of modular packages that can be used independently or combined into larger workflows.
 
 ---
 
