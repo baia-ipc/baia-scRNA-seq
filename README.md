@@ -20,9 +20,7 @@
 
 ---
 
-## Modular Design
-
-The toolkit is modular.
+The BAIA Single Cell analysis toolkit is modular.
 Some packages are commonly used together, while others can be applied independently depending on the biological question being addressed.
 
 ```text
@@ -49,6 +47,21 @@ Some packages are commonly used together, while others can be applied independen
                            │ baia-pathway-analysis  │
                            └─────────────────────────┘
 ```
+
+
+## Installation
+
+Each package can be installed independently.
+
+```r
+remotes::install_github("baia-ipc/baia-seurat-helpers")
+remotes::install_github("baia-ipc/baia-ext-cellprop-plots")
+remotes::install_github("baia-ipc/baia-cellchat")
+remotes::install_github("baia-ipc/baia-pathway-analysis")
+remotes::install_github("baia-ipc/baia-pseudobulk-deseq")
+```
+
+See the individual repositories for package-specific documentation and examples.
 
 ---
 
@@ -138,22 +151,6 @@ Provides utility functions that simplify common Seurat operations and serve as a
 * Compatibility with Seurat v5
 * Transparent statistical methods
 * Support for scalable and collaborative single-cell analysis
-
----
-
-## Installation
-
-Each package can be installed independently.
-
-```r
-remotes::install_github("baia-ipc/baia-seurat-helpers")
-remotes::install_github("baia-ipc/baia-ext-cellprop-plots")
-remotes::install_github("baia-ipc/baia-cellchat")
-remotes::install_github("baia-ipc/baia-pathway-analysis")
-remotes::install_github("baia-ipc/baia-pseudobulk-deseq")
-```
-
-See the individual repositories for package-specific documentation and examples.
 
 ---
 
