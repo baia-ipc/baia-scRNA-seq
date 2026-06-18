@@ -3,12 +3,10 @@
 <tr>
 <td width="300" valign="top">
 
-<img src="assets/images/baia-sctk-logo.png" alt="BAIA-SCTK Logo" width="180">
+<img src="assets/images/baia-sctk-logo.png" alt="BAIA-SCTK Logo" width="220">
 
 </td>
 <td valign="top">
-
-
 # BAIA Single Cell analysis ToolKit (BAIA-SCTK)
 
 The **BAIA Single Cell analysis ToolKit** is a collection of interoperable R packages developed by the Bioinformatics and AI Applications (BAIA) Unit at the Institut Pasteur du Cambodge. The toolkit supports common single-cell RNA-seq analyses through a set of modular packages that can be used independently or combined into larger workflows.
