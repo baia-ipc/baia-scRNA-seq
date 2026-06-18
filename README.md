@@ -1,7 +1,7 @@
 
 <table>
 <tr>
-<td width="220" valign="top">
+<td width="300" valign="top">
 
 <img src="assets/images/baia-sctk-logo.png" alt="BAIA-SCTK Logo" width="180">
 
