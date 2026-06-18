@@ -8,7 +8,10 @@
 </tr>
 </table>
 
-## Repository Overview
+## Overview
+
+The BAIA Single Cell analysis toolkit is modular.
+Some packages are commonly used together, while others can be applied independently depending on the biological question being addressed.
 
 | Package                                                                        | Description                                                                                        |
 | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
@@ -19,9 +22,6 @@
 | [baia-pseudobulk-deseq](https://github.com/baia-ipc/baia-pseudobulk-deseq)     | Pseudobulk differential expression workflows based on DESeq2.                                      |
 
 ---
-
-The BAIA Single Cell analysis toolkit is modular.
-Some packages are commonly used together, while others can be applied independently depending on the biological question being addressed.
 
 ```text
                                ┌─────────────────────┐
