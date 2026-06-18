@@ -22,8 +22,7 @@
 
 ## Modular Design
 
-The toolkit is intentionally modular.
-
+The toolkit is modular.
 Some packages are commonly used together, while others can be applied independently depending on the biological question being addressed.
 
 ```text
@@ -53,7 +52,7 @@ Some packages are commonly used together, while others can be applied independen
 
 ---
 
-## Common Use Cases
+## Use Cases
 
 ### Cell Type Composition
 
@@ -72,7 +71,6 @@ Outputs:
 * Stacked barplots
 * Proportion plots
 * Statistical comparisons
-* Publication-ready figures
 
 ---
 
@@ -118,7 +116,6 @@ Outputs:
 * Interaction networks
 * Signaling pathway analyses
 * Comparative communication analyses
-* Publication-ready CellChat visualizations
 
 This package can be used independently of the differential expression and pathway-analysis workflows.
 
@@ -138,7 +135,6 @@ Provides utility functions that simplify common Seurat operations and serve as a
 
 * Modular architecture
 * Reproducible workflows
-* Publication-ready outputs
 * Compatibility with Seurat v5
 * Transparent statistical methods
 * Support for scalable and collaborative single-cell analysis
@@ -150,7 +146,11 @@ Provides utility functions that simplify common Seurat operations and serve as a
 Each package can be installed independently.
 
 ```r
-remotes::install_github("baia-ipc/REPOSITORY_NAME")
+remotes::install_github("baia-ipc/baia-seurat-helpers")
+remotes::install_github("baia-ipc/baia-ext-cellprop-plots")
+remotes::install_github("baia-ipc/baia-cellchat")
+remotes::install_github("baia-ipc/baia-pathway-analysis")
+remotes::install_github("baia-ipc/baia-pseudobulk-deseq")
 ```
 
 See the individual repositories for package-specific documentation and examples.
@@ -161,10 +161,9 @@ See the individual repositories for package-specific documentation and examples.
 
 The BAIA Unit develops open-source software supporting:
 
-* Single-cell transcriptomics
-* Viral genomics
+* Single-cell transcriptomics and Immune bioinformatics
+* Viral genomics and metagenomics
 * Malaria bioinformatics
-* Research reporting
-* AI-assisted biomedical data analysis
+* AI-assisted qualitative research data analysis
 
 GitHub Organization: [github.com/baia-ipc](https://github.com/baia-ipc)
