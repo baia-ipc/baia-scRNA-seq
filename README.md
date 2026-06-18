@@ -163,4 +163,4 @@ The BAIA Unit develops open-source software supporting:
 * Research reporting
 * AI-assisted biomedical data analysis
 
-GitHub Organization: https://github.com/baia-ipc
+GitHub Organization: [github.com/baia-ipc](https://github.com/baia-ipc)
